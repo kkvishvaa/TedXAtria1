@@ -16,7 +16,15 @@
     max-width: 800px;
     margin: 0 auto;
 }
+.about-box{
+    text-decoration: none;
+    color: red;
+}
 
+.about-box:hover {
+    color: #cc0000;  
+    text-decoration: none; 
+}
 /* Responsive Design */
 @media (max-width: 1024px) {
     .about-section {

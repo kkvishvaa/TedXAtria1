@@ -1,22 +1,32 @@
+import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import "../styles/AtriaIT.css"; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 import atrialogo from "../assets/atrialogo.png"; 
 import auglass from "../assets/auglass.avif";
 import pldesign from "../assets/Planet.png";
 import "../components/TeamSection";
 import TeamSection from "../components/TeamSection";
-import Footer from "./Footer2";
+
+
 const AboutAtriaIT = () => {
+  useEffect(() => {
+  AOS.init({
+    duration: 1500, 
+    easing: "ease-in-out", 
+    once: false, 
+  });
+}, []);
   return (
     <div className="atria-container">
-      {/* Logo */}
-      <img src={atrialogo} alt="College Logo" className="atria-logo" />
+      
+      <img src={atrialogo} alt="College Logo" className="atria-logo"  data-aos="fade-down" />
 
-      {/* Title */}
-      <h2 className="atria-title">About Atria IT</h2>
+      <h2 className="atria-title" data-aos="fade-up">About Atria IT</h2>
 
-      {/* Content Section */}
-      <div className="atria-content">
+     
+      <div className="atria-content" data-aos="fade-right">
         <h4 className="atria-subtitle">Atria Institute of Technology (AIT)</h4>
         <ul className="atria-list">
           <li>Atria Institute of Technology was established in the year 2000 and is affiliated to VTU.</li>
@@ -26,11 +36,11 @@ const AboutAtriaIT = () => {
         </ul>
       </div>
 
-      {/* About Atria Image */}
-      <img src={auglass} alt="About Atria IT" className="atria-about-image" />
+    
+      <img src={auglass} alt="About Atria IT" className="atria-about-image" data-aos="zoom-in" />
 
-      {/* About INFINITE REALMS Section */}
-      <div className="infinite-realms-container">
+    
+      <div className="infinite-realms-container" data-aos="fade-left">
         <h2 className="infinite-realms-title">About INFINITE REALMS</h2>
         <p className="infinite-realms-text">
           The theme <strong>‘INFINITE REALMS’</strong> at <strong>TEDxAtria IT</strong> explores limitless possibilities in fields like science, technology, and media.
@@ -45,11 +55,11 @@ const AboutAtriaIT = () => {
         </p>
       </div>
 
-      {/* Planet Design Image */}
-      <img src={pldesign} alt="About Atria IT" className="atria-pl-image" />
+  
+      <img src={pldesign} alt="About Atria IT" className="atria-pl-image"  data-aos="flip-left"/>
 
-      {/* TEDx Event Description */}
-      <div className="tedx-event-container">
+     
+      <div className="tedx-event-container" data-aos="fade-up">
         <p className="tedx-event-text">
           <strong>TEDxAtria</strong> will host a remarkable lineup of speakers on <strong>9th November 2024</strong>,
           sharing stories and insights from diverse fields. These speakers will explore who they are, what they do, and why,

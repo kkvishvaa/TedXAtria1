@@ -1,4 +1,5 @@
 import '../styles/Footer.css';
+import { Link } from "react-router-dom";
 import tedxLogo from '/tedxlogo.png'; 
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
 
       
         <div className="col-md-4 text-md-end mt-3 mt-md-0">
-          <div className="about-box">About Us!</div>
+          <Link className="about-box"  to="/about" onClick={() => window.scrollTo(0, 0)}>About Us!</Link>  
           <div className="social-links mt-2">
             <a href="#">Instagram</a>
             <a href="#">Twitter</a>

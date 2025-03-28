@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Neena from "../assets/Neena.jpeg";
 import Rashmi from "../assets/Rashmi.jpeg";
 import Anoop from "../assets/Anoop.jpeg";
@@ -65,14 +67,23 @@ const teamMembers = [
 ];
 
 const TeamSection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500, // Slower animations (1.5 seconds)
+      easing: "ease-in-out",
+      once: false,
+    });
+  }, []);
   return (
     <div className="team-section">
-      <h2 className="team-title">Meet the Team</h2>
-      <p className="team-subtitle">"The minds behind the magic."</p>
+      <h2 className="team-title" data-aos="fade-up" data-aos-duration="2000">Meet the Team</h2>
+      <p className="team-subtitle" data-aos="fade-up" data-aos-duration="1800">"The minds behind the magic."</p>
 
       <div className="team-container">
         {teamMembers.map((member, index) => (
-          <div key={index} className="team-card">
+          <div key={index} className="team-card"  data-aos="fade-up" 
+          data-aos-duration="2000"
+          data-aos-delay={index * 200} >
             <img src={member.image} alt={member.name} className="team-image" />
             <h3 className="team-name">{member.name}</h3>
             <p className="team-role">{member.role}</p>

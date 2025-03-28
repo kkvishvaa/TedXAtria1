@@ -25,7 +25,7 @@ const Navbar = () => {
               <a className="nav-link" href="#partners">Partners</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About Us</Link>
+              <Link className="nav-link" to="/about" onClick={() => window.scrollTo(0, 0)}>About Us</Link>
             </li>
           </ul>
         </div>
