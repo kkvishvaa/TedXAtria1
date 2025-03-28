@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import EventDetails from '../components/EventDetails';
 import About from '../components/About';
+import Trailer from '../components/Trailer';
 import Speakers from '../components/Speakers';
 import Partners from '../components/Partners';
 import Location from '../components/Location';
@@ -15,6 +16,7 @@ function TedxAtria() {
         <Hero/>
         <EventDetails/>
         <About />
+        <Trailer/>
         <Speakers />
         <Partners/>
         <Location/>
