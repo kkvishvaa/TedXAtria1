@@ -1,13 +1,29 @@
-/* AtriaIT.css */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
 .atria-container {
     color: white;
     text-align: center;
-    padding: 80px 30px; /* Increased padding */
+    padding: 80px 30px; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    width: 100%;
+    margin: 0 auto;
 }
 
 .atria-logo {
@@ -27,6 +43,8 @@
     max-width: 800px;
     text-align: left;
     line-height: 1.8; 
+    width: 100%;
+    margin: 0 auto;
 }
 
 .atria-subtitle {
@@ -53,7 +71,6 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
-
 .infinite-realms-container {
     max-width: 900px;
     text-align: left;
@@ -62,6 +79,9 @@
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .infinite-realms-title {
@@ -76,13 +96,14 @@
     line-height: 1.8;
     margin-bottom: 15px;
 }
+
 .atria-pl-image {
     width: 100%; 
     max-width: 400px; 
     margin-top: 30px; 
     border-radius: 10px; 
-   
 }
+
 .tedx-event-container {
     max-width: 800px;
     text-align: center;
@@ -91,6 +112,9 @@
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tedx-event-text {
@@ -99,9 +123,11 @@
     color: white;
 }
 
-
-
 @media (max-width: 768px) {
+    .atria-container {
+        padding: 60px 20px;
+    }
+
     .atria-title {
         font-size: 26px;
     }
@@ -128,6 +154,10 @@
 }
 
 @media (max-width: 480px) {
+    .atria-container {
+        padding: 40px 15px;
+    }
+
     .atria-title {
         font-size: 22px;
     }
