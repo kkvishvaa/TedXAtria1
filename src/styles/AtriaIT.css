@@ -1,0 +1,154 @@
+/* AtriaIT.css */
+.atria-container {
+    color: white;
+    text-align: center;
+    padding: 80px 30px; /* Increased padding */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.atria-logo {
+    width: 220px; 
+    max-width: 100%;
+    margin-bottom: 30px; 
+}
+
+.atria-title {
+    font-weight: 700;
+    font-size: 32px; 
+    margin-bottom: 25px;
+    letter-spacing: 1px; 
+}
+
+.atria-content {
+    max-width: 800px;
+    text-align: left;
+    line-height: 1.8; 
+}
+
+.atria-subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.atria-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.atria-list li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.atria-about-image {
+    width: 100%; 
+    max-width: 600px; 
+    margin-top: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.infinite-realms-container {
+    max-width: 900px;
+    text-align: left;
+    margin-top: 40px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.infinite-realms-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.infinite-realms-text {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.atria-pl-image {
+    width: 100%; 
+    max-width: 400px; 
+    margin-top: 30px; 
+    border-radius: 10px; 
+   
+}
+.tedx-event-container {
+    max-width: 800px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tedx-event-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+
+
+@media (max-width: 768px) {
+    .atria-title {
+        font-size: 26px;
+    }
+
+    .atria-subtitle {
+        font-size: 22px;
+    }
+
+    .atria-list li {
+        font-size: 16px;
+    }
+
+    .infinite-realms-container {
+        padding: 20px;
+    }
+
+    .infinite-realms-title {
+        font-size: 24px;
+    }
+
+    .infinite-realms-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .atria-title {
+        font-size: 22px;
+    }
+
+    .atria-subtitle {
+        font-size: 20px;
+    }
+
+    .atria-list li {
+        font-size: 14px;
+    }
+
+    .infinite-realms-container {
+        padding: 15px;
+    }
+
+    .infinite-realms-title {
+        font-size: 22px;
+    }
+
+    .infinite-realms-text {
+        font-size: 14px;
+    }
+}

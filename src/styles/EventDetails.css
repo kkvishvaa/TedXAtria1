@@ -1,0 +1,33 @@
+.event-details {
+    padding: 30px;
+    text-align: left;  
+    border-radius: 8px;
+    margin: 40px 0;
+     
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);  
+}
+
+.event-icon {
+    font-size: 2rem;
+    color: #e62b1e;
+    margin-right: 20px; 
+}
+
+.event-details p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .event-details {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .event-icon {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
