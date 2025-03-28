@@ -35,7 +35,7 @@ const Speakers = () => {
     const cardRefs = useRef([]);
 
     useEffect(() => {
-        // Only set up the observer for mobile devices (e.g., window width < 768px)
+       
         if (window.innerWidth < 768) {
             const observer = new IntersectionObserver(
                 (entries) => {

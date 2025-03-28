@@ -69,7 +69,7 @@ const teamMembers = [
 const TeamSection = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1500, // Slower animations (1.5 seconds)
+      duration: 1500, 
       easing: "ease-in-out",
       once: false,
     });
