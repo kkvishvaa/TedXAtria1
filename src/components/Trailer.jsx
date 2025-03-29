@@ -6,9 +6,11 @@ const Trailer= () => {
 
   return (
     <>
+    <div class="center-container">
       <button className="trailer-btn" onClick={() => setIsOpen(true)}>
       Watch the TEDx Spark
       </button>
+      </div>
 
       {isOpen && (
         <div className="modal-overlay" onClick={() => setIsOpen(false)}>

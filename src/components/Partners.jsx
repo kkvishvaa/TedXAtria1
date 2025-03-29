@@ -29,9 +29,7 @@ const Partners = () => {
                       className="sponsor-logo"
                     />
                   </div>
-                  <div className="sponsor-overlay">
-                    <span className="sponsor-name">{sponsor.name}</span>
-                  </div>
+
             
               </div>
             </div>
