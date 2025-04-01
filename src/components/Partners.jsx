@@ -11,7 +11,7 @@ const Partners = () => {
     { id: 2, name: 'Sponsor 2', logo: GloryBrand },
     { id: 3, name: 'Sponsor 3', logo: bondasoup },
     { id: 4, name: 'Sponsor 4', logo: ExploResearch },
-    { id: 4, name: 'Sponsor 4', logo: TACB }
+    { id: 5, name: 'Sponsor 5', logo: TACB }
   ];
 
   return (
