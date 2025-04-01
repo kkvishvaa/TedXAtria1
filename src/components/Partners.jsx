@@ -2,6 +2,7 @@ import PSK from "../assets/PSK.jpeg";
 import GloryBrand from "../assets/GloryBrand.jpeg";
 import bondasoup from "../assets/bondasoup.jpeg";
 import ExploResearch from "../assets/ExploResearch.jpeg";
+import TACB from "../assets/TACBSTUDIOS.png";
 import '../styles/Partners.css';
 
 const Partners = () => {
@@ -10,7 +11,7 @@ const Partners = () => {
     { id: 2, name: 'Sponsor 2', logo: GloryBrand },
     { id: 3, name: 'Sponsor 3', logo: bondasoup },
     { id: 4, name: 'Sponsor 4', logo: ExploResearch },
-    
+    { id: 4, name: 'Sponsor 4', logo: TACB }
   ];
 
   return (
