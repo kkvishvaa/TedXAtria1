@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:ital,wght@1,600&display=swap');
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #141010;
-    color: #f6f0f0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100%;
-}
 
 .hero-section {
     text-align: center;
@@ -19,7 +8,7 @@ body {
     color: white;
     position: relative;
     background: 
-        linear-gradient(to bottom, rgba(20, 16, 16, 0) 60%, #141010 100%), 
+        linear-gradient(to bottom, rgba(20, 16, 16, 0) 60%, #000000 100%), 
         url("../assets/Planet.png") no-repeat right bottom;
     background-size: contain;
 }

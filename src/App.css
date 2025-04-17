@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #141010;
+  background-color: #000000;
   color: #f6f0f0;
   margin: 0;
   padding: 0;
@@ -12,6 +12,11 @@ body {
   
 
 }
+
+a{
+  text-decoration: none;
+}
+
 html {
   scroll-padding-top: 90px; 
 }
