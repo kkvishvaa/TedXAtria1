@@ -7,21 +7,17 @@ const Footer = () => {
   return (
     <footer className="footer container-fluid mt-5">
       <div className="row text-center text-md-start">
-
- 
         <div className="col-md-4 mb-4 mb-md-0">
           <div className="footer-logo">
-            <img src={tedxLogo} alt="TEDxAtria IT" className="img-fluid" />
+            <img src={tedxLogo} alt="TEDxAtria IT" className="img-fluid logo" />
           </div>
           <p className="mt-2 fst-italic small">
             This independent TEDx event is operated under license from TED.
           </p>
         </div>
 
-        
         <div className="col-md-4 mb-4 mb-md-0">
           <h5 className="footer-heading">Contact Us</h5>
-        
           <p>
             Email: <a href="mailto:info@tedxatriait.com" className="text-white">info@tedxatriait.com</a>
           </p>
@@ -35,19 +31,17 @@ const Footer = () => {
           </div>
         </div>
 
-      
         <div className="col-md-4 text-md-end mt-3 mt-md-0">
-         
+        
           <div className="social-links mt-4">
-            <a href="#"><FaInstagram /> Instagram</a>
-            <a href="#"><FaTwitter /> Twitter</a>
-            <a href="#"><FaYoutube /> YouTube</a>
-            <a href="#"><FaReddit /> Reddit</a>
+            <a href="#" className="social-link"><FaInstagram /> Instagram</a>
+            <a href="#" className="social-link"><FaTwitter /> Twitter</a>
+            <a href="#" className="social-link"><FaYoutube /> YouTube</a>
+            <a href="#" className="social-link"><FaReddit /> Reddit</a>
           </div>
         </div>
       </div>
 
-    
       <div className="copyright mt-5">
         Copyright © 2024 <a href="#">TEDxAtria IT</a> All Rights Reserved.
       </div>
