@@ -34,10 +34,20 @@ const Footer = () => {
         <div className="col-md-4 text-md-end mt-3 mt-md-0">
           <Link className="about-box" to="/about" onClick={() => window.scrollTo(0, 0)}>About Us!</Link>
           <div className="social-links mt-4">
-            <a href="#" className="social-link"><FaInstagram /> Instagram</a>
-            <a href="#" className="social-link"><FaTwitter /> Twitter</a>
-            <a href="#" className="social-link"><FaYoutube /> YouTube</a>
-            <a href="#" className="social-link"><FaReddit /> Reddit</a>
+            <a href="https://www.instagram.com/tedx_atriait?igsh=NDZ6Mmo1ZjRsNHk2" className="social-link" target="_blank" rel="noopener noreferrer">
+              <FaInstagram /> Instagram
+            </a>
+            <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <FaTwitter /> Twitter
+            </a>
+            <a href="https://youtube.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <FaYoutube /> YouTube
+            </a>
+            <a href="https://reddit.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <FaReddit /> Reddit
+            </a>
+
+
           </div>
         </div>
       </div>
