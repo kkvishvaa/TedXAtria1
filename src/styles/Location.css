@@ -1,3 +1,9 @@
+.location-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem; /* Adjust the font size as needed */
+  }
+  
 .map-container {
     position: relative;
     display: flex;
