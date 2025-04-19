@@ -84,7 +84,7 @@ const TeamSection = () => {
           <div key={index} className="team-card"  data-aos="fade-up" 
           data-aos-duration="800"
           data-aos-delay={index * 30} >
-            <img src={member.image} alt={member.name} className="team-image" />
+            <img src={member.image} alt={member.name} className="team-image" loading="lazy" />
             <h3 className="team-name">{member.name}</h3>
             <p className="team-role">{member.role}</p>
           </div>

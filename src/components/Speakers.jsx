@@ -74,7 +74,7 @@ const Speakers = () => {
 
                                 <div className="flip-card-front text-center p-3">
                                     <div className="image-container mb-3 mx-auto">
-                                        <img src={speaker.image} alt={speaker.name} className="img-fluid" />
+                                        <img src={speaker.image} alt={speaker.name} className="img-fluid" loading="lazy"/>
                                     </div>
                                     <h4 className="mb-2">{speaker.name}</h4>
                                     {speaker.frontDesc && <p className="m-0">{speaker.frontDesc}</p>}

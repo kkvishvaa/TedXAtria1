@@ -28,6 +28,7 @@ const Partners = () => {
                       src={sponsor.logo} 
                       alt={sponsor.name} 
                       className="sponsor-logo"
+                      loading="lazy"
                     />
                   </div>
 
