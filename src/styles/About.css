@@ -25,7 +25,7 @@
     color: #cc0000;  
     text-decoration: none; 
 }
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .about-section {
         padding: 60px 15px;

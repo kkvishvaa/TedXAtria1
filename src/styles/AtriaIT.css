@@ -13,18 +13,21 @@ html, body {
 
 
 .atria-container {
+    padding-top: 200px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px; 
     color: white;
     text-align: center;
-    padding: 80px 30px; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     width: 100%;
     margin: 0 auto;
 }
+
 
 .atria-logo {
     width: 220px; 
@@ -123,9 +126,15 @@ html, body {
     color: white;
 }
 
+@media (min-width: 1024px) {
+    .atria-container {
+      padding-top: 120px; 
+    }
+  }
+
 @media (max-width: 768px) {
     .atria-container {
-        padding: 60px 20px;
+        padding-top: 160px;
     }
 
     .atria-title {
@@ -155,7 +164,7 @@ html, body {
 
 @media (max-width: 480px) {
     .atria-container {
-        padding: 40px 15px;
+        padding-top: 130px;
     }
 
     .atria-title {

@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="col-md-4 mb-4 mb-md-0">
           <h5 className="footer-heading">Contact Us</h5>
           <p>
-            Email: <a href="mailto:info@tedxatriait.com" className="text-white">info@tedxatriait.com</a>
+            Email: <a href="mailto:tedxatria@gmail.com" className="text-white">tedxatria@gmail.com</a>
           </p>
           <address>
             Tech Innovation Hub, Atria IT Park,<br />

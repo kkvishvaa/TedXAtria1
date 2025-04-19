@@ -19,8 +19,8 @@ const AboutAtriaIT = () => {
   });
 }, []);
   return (
-    <div className="atria-container">
-      
+    <div className="atria-container mt-5">
+
       <img src={atrialogo} alt="College Logo" className="atria-logo"  data-aos="fade-down" />
 
       <h2 className="atria-title" data-aos="fade-up">About Atria IT</h2>
