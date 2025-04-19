@@ -22,8 +22,7 @@ const Footer = () => {
             Email: <a href="mailto:tedxatria@gmail.com" className="text-white">tedxatria@gmail.com</a>
           </p>
           <address>
-            Tech Innovation Hub, Atria IT Park,<br />
-            Sunshine City, ST 12345
+           ATRIA INSTITUTE OF TECHNOLOGY, 1st Main Rd, Ags Colony, Anandnagar, Hebbal, Bengaluru, Karnataka 560024
           </address>
           <div className="hashtags mt-3">
             <span className="badge">#TEDxAtriaIT</span>
